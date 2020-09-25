@@ -1,3 +1,23 @@
 How To Generate a Table With JavaScript: 
 https://www.valentinog.com/blog/html-table/
 
+The Alien Lander: 
+https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826
+
+How do I change color of input table itself and the font color?: 
+https://www.jotform.com/answers/1937258-How-do-I-change-color-of-input-table-itself-and-the-font-color
+
+Master looping in Javascript: 
+https://www.freecodecamp.org/news/master-the-art-of-looping-in-javascript-with-these-incredible-tricks-a5da1aa1d6c5/
+
+Advanced table coloring D3: 
+https://observablehq.com/@jlchmura/shaded-table/2
+
+How to add a class?: 
+https://www.w3schools.com/howto/howto_js_add_class.asp
+
+Using Select: 
+https://website.education.wisc.edu/~swu28/d3t/concept.html
+
+Contextual Classes table(multicolored table)
+https://getbootstrap.com/docs/4.0/content/tables/#hoverable-rows

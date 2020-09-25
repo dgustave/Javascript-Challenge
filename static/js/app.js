@@ -29,9 +29,12 @@ function generateUfoTableHead(table, proof) {
       for (key in element) {
         let cell = row.append("td");
         cell.text(element[key])
+
       }
     }
   }
+
+
 //   Declare variables before calling the function: 
   let table = d3.select("tbody");
 //   The table head is the first row
@@ -55,6 +58,30 @@ function handleClick() {
   var filteredData = tableData.filter(data => data.datetime === inputValue); //point filter towards original data set. 
   generateUfoData(table, filteredData);
 }
+// This is for the table text.
+var elements = document.querySelectorAll("tr");
+for (let i = 0; i < elements.length; i++){
+  elements[i].style.color = "lightblue";
+}
+
+
+// Create a funtion to append colored rows: 
+  // <tr class="table-primary">...</tr>
+  // <tr class="table-secondary">...</tr>
+  // <tr class="table-success">...</tr>
+  // <tr class="table-danger">...</tr>
+  // <tr class="table-warning">...</tr>
+  // <tr class="table-info">...</tr>
+  // <tr class="table-light">...</tr>
+  // // <tr class="table-dark">...</tr>
+let colored_rows = ["table-primary", "table-secondary", "table-success", "table-danger", "table-warning", "table-info", "table-light", "table-dark"];
+for (let i = 0; i < colored_rows.length; i++){
+  let color = colored_rows[i];
+  d3.select("tr").attr("class", color);
+  d3.selectAll("tr").attr("class", colored_rows[6]);
+}
+// this needs to go before click statement ^^^^^^^^^^^
+
 
 // We can use the `on` function in d3 to attach an event to the handler function
 button.on("click", handleClick);
