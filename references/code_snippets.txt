@@ -21,3 +21,13 @@ https://website.education.wisc.edu/~swu28/d3t/concept.html
 
 Contextual Classes table(multicolored table)
 https://getbootstrap.com/docs/4.0/content/tables/#hoverable-rows
+
+Referencing other js Pages: 
+https://stackoverflow.com/questions/25962958/calling-a-javascript-function-in-another-js-file
+
+Deciding on condtionals: 
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals
+
+Using Switch Statements: 
+https://love2dev.com/blog/javascript-switch-statement/
+https://stackoverflow.com/questions/6612541/how-to-get-return-value-from-switch-statement/6612595#:~:text=No%2C%20the%20switch%20doesn't,only%20a%20string%20literal%20value.&text=A%20statement%20like%20that%20is,the%20value%20of%20a%20variable.
