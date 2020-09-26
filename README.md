@@ -1,4 +1,4 @@
-# JavaScript Homework - JavaScript and DOM Manipulation
+# Rick and Morty : Men in Black JavaScript Edition
 
 ## Background
 
@@ -10,12 +10,13 @@ You can handle this... right?
 
 
 ### Level 1: Automatic Table and Date Search (Required)
-<img>/static/img/lvl1.png</img>
+<img src="/static/img/lvl1.png" >
 
 
 ### Level 2: Multiple Search Categories (Optional)
-<img>/static/img/lvl2.png</img>
-<img>/static/img/lvl2data.png</img>
+<img src ="/static/img/lvl2.png" >
+<img src ="/static/img/lvl2data.png" >
+
 
 ### Dataset
 
